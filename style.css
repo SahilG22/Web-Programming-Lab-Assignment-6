@@ -133,10 +133,23 @@ textarea {
 
 form > button {
   margin: 1rem;
-  height: 2.5rem;
+  height: 3rem;
   width: 10rem;
+  font-size: 1.5rem;
   background-color: #34344a;
   border: none;
   padding: 0.5rem;
   border-radius: 2rem;
+}
+
+.contact-inner {
+  background-color: #232232;
+  width: 55%;
+  padding: 3rem;
+  margin: auto;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: all 2s ease-in-out;
 }
